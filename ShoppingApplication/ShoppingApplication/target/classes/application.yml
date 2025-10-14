@@ -1,0 +1,40 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: yashm1520@gmail.com
+    password: itcu flyw chjk pdyl
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/Ecommerce
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    compatibility-verifier:
+      enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: Ecommerce-service  # This name will be used to register with Eureka
+logging:
+  file:
+    name: logs/app.log  
+  level:
+    com.Auth.UserService.Service: DEBUG
+server:
+  port: 8081
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  

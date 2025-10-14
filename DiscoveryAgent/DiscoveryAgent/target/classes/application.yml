@@ -1,0 +1,14 @@
+server:
+  port: 8761  # port to be assigin eureka server
+
+spring:
+  application:
+    name: eureka-server  #here we can assign server name
+
+eureka:
+  client:
+    register-with-eureka: false   # Server should not register itself  #server not here client register
+    fetch-registry: false         # Server does not fetch registry
+  server:
+    enable-lease-expiration: true
+

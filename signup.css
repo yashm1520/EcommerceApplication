@@ -1,0 +1,57 @@
+.container {
+    margin: 100px auto;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 20px;
+    padding-right: 40px;
+    font-family: 'Gill Sans';
+    width: 500px;
+    background-size: cover;
+    margin-right: 600px;
+
+
+
+}
+
+
+
+.header {
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    background-image: url('black-friday-sales-sign-neon-light.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    background-color: blue;
+    padding: 10px;
+
+}
